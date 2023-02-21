@@ -34,7 +34,7 @@ body{
     margin-top: -300px;
 }
 
-.header, .subtitulo{
+header, .subtitulo{
     display: flex;
     justify-content: center;
 }
@@ -119,7 +119,6 @@ h3{
 
 
 .datos{
-    
     margin-top: 60px;
     margin-bottom: 10px;
 } 
@@ -196,10 +195,15 @@ h3{
 }
 
 @media (max-width:600px){
+
+
+    .container img{
+        width: 450px;
+    }
     .datospersonales, .estudios, .experiencia, .habilidades{
         display: flex;
         height: 200px;
-        width: 350px;
+        width: 320px;
 }
     
 .datos, .datos-educacion, .datos-experiencia{
@@ -209,11 +213,16 @@ h3{
     height: 90px;
     width: 90px;
     margin-top: 40px;
+    border: solid 3px fuchsia;
+}
+
+.datos{
+    margin-top: 80px;
 }
 
 .iconos{
     font-size: 40px;
-    margin-left: -50px;
+    margin-left: -90px;
     margin-top: 70px;
 }
 
