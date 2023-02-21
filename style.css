@@ -237,6 +237,7 @@ h3{
 
 .p4, .p5{
     margin-left: -70px;
+    overflow: hidden;
 }
 .iconos{
     font-size: 40px;
