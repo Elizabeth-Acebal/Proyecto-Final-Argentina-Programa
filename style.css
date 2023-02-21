@@ -145,16 +145,20 @@ h3{
     margin-left: -70px;
 }
 
-.p2, .logo2{
+.p2, .p4, .logo2{
     color: aqua;
 }
 
-.p3, .logo3{
+.p3, .p5, .logo3{
     color: greenyellow; 
 }
 
 .p1, .p2, .p3{
     margin-left: -200px;
+}
+
+.p4, .p5{
+    margin-left: -100px;
 }
 .logo4{
     color: magenta;
@@ -197,10 +201,11 @@ h3{
 @media (max-width:600px){
 
 
-    .container img{
-        width: 450px;
+.container img{
+        width: 400px;
     }
-    .datospersonales, .estudios, .experiencia, .habilidades{
+
+.datospersonales, .estudios, .experiencia, .habilidades{
         display: flex;
         height: 200px;
         width: 320px;
@@ -209,6 +214,7 @@ h3{
 .datos, .datos-educacion, .datos-experiencia{
     font-size: 15px;
 }
+
 .datospersonales img, .estudios img, .experiencia img{
     height: 90px;
     width: 90px;
@@ -220,9 +226,21 @@ h3{
     margin-top: 80px;
 }
 
+h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.p1, .p2, .p3{
+    margin-left: -150px;
+}
+
+.p4, .p5{
+    margin-left: -50px;
+}
 .iconos{
     font-size: 40px;
-    margin-left: -90px;
+    margin-left: -45px;
     margin-top: 70px;
 }
 
